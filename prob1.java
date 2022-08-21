@@ -14,7 +14,7 @@ public class Problem1 {
 		System.out.println("Sum of 2 string lengths:"+(firstName.length()+lastName.length()));
 		
 		
-		System.out.println(firstName.replace("adam" , "Adam")+ " "+ lastName.replace("e","E"));
+		System.out.println(firstName.substringreplace("adam" , "Adam")+ " "+ lastName.replace("e","E"));
 		
 		
 		int expression = firstName.compareTo(lastName);
